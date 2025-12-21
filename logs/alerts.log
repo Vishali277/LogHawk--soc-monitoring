@@ -1,0 +1,5 @@
+2025-12-20 11:52:12 | ALERT | Brute-force detected
+Source IP: 223.228.183.221
+Failed attempts: 10+
+Target: / (login endpoint)
+Action: Logged & flagged for investigation
