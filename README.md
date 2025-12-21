@@ -105,6 +105,7 @@ loghawk/
 ├── logs/           # auth.log, alerts.log (sample logs)
 ├── scripts/        # Bash detection scripts
 ├── docs/           # SOC analysis and documentation
+├── screenshots/    
 └── README.md
 
 
