@@ -80,3 +80,28 @@ This workflow mirrors real-world SOC operations at a simplified scale.
 
 ## 📂 Repository Structure
 
+loghawk/
+├── app/ # Flask application
+├── logs/ # auth.log, alerts.log (sample logs)
+├── scripts/ # Bash detection scripts
+├── docs/ # SOC analysis and documentation
+└── README.md
+
+
+---
+
+## 🚀 Future Enhancements
+
+- Per-IP and time-window–based detection rules
+- Automated attacker IP blocking
+- Centralized log aggregation
+- Integration with full-scale SIEM platforms
+- SOC dashboards for alert visualization
+
+---
+
+## 👥 Collaboration
+
+This project is developed collaboratively, combining:
+- Cloud infrastructure and application deployment
+- Security monitoring, detection logic, and SOC analysis
