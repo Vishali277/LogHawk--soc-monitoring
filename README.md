@@ -12,7 +12,7 @@ A lightweight web application is deployed on an AWS EC2 instance and monitored u
 
 ---
 
-## ☁️ Architecture (High-Level)
+## ☁️ Architecture (High Level)
 
 - Cloud-hosted application running on **AWS EC2 (Ubuntu Linux)**
 - Public-facing login endpoint exposed to the internet
@@ -71,24 +71,13 @@ This workflow mirrors real-world SOC operations at a simplified scale.
 
 ## 🛡️ Cloud Security Controls
 
-- **AWS Security Groups** for network-level access control
-- Restricted ports for application and administrative access
-- Secure SSH-based server administration
-- Continuous monitoring of authentication activity on a public cloud server
+- **AWS Security Groups** for network-level access control  
+- Restricted ports for application and administrative access  
+- Secure SSH-based server administration  
+- Continuous monitoring of authentication activity on a public cloud server  
 
 ---
 
-## 📂 Repository Structure
-
-loghawk/
-├── app/ # Flask application
-├── logs/ # auth.log, alerts.log (sample logs)
-├── scripts/ # Bash detection scripts
-├── docs/ # SOC analysis and documentation
-└── README.md
-
-
----
 
 ## 🚀 Future Enhancements
 
@@ -105,3 +94,18 @@ loghawk/
 This project is developed collaboratively, combining:
 - Cloud infrastructure and application deployment
 - Security monitoring, detection logic, and SOC analysis
+
+## 📂 Repository Structure
+
+The repository is organized as follows:
+
+````text
+loghawk/
+├── app/            # Flask application
+├── logs/           # auth.log, alerts.log (sample logs)
+├── scripts/        # Bash detection scripts
+├── docs/           # SOC analysis and documentation
+└── README.md
+
+
+
